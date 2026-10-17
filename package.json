@@ -1,0 +1,19 @@
+{
+  "name": "joel-pines-studio-web",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.5.5",
+    "cropperjs": "1.6.2",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
